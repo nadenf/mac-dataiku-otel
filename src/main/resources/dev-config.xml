@@ -1,0 +1,16 @@
+<assembly>
+    <id>dev</id>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <formats>
+        <format>tgz</format>
+    </formats>
+
+    <files>
+        <file>
+            <source>src/main/resources/application.properties</source>
+        </file>
+        <file>
+            <source>src/main/resources/application-dev.properties</source>
+        </file>
+    </files>
+</assembly>
